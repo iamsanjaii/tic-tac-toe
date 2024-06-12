@@ -41,6 +41,7 @@ textarea {
   background-color: #ff7675;
   justify-content: center;
   text-decoration: none;
+  flex-wrap: wrap;
   color: white;
   text-align: center;
   border: 2px solid white;
