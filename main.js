@@ -47,9 +47,11 @@ function ClickHandle(e) {
   if (Checkwin()) {
     winsound();
     setTimeout(() => alert(playergo.toUpperCase() + " won"), 100);
+    reset();
   } else if (boardState.every((tile) => tile !== null)) {
     winsound();
     setTimeout(() => alert("Hey Its a Tie"), 100);
+    reset();  
   } else {
     ChangePlayer();
   }
